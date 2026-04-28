@@ -29,8 +29,8 @@ Focus on clear, minimal tests that verify behavior, not implementation details.
 - Absolutely no code comments.
 
 **Fixtures**
-- Do not create new fixtures.
-- Use only fixtures from `tests/fixtures`, importing them only when needed.
+- Do not create new fixtures unless asked.
+- Reuse existing fixtures (e.g. from `tests/fixtures` or `conftest.py`), importing them only when needed.
 
 **Parametrization**
 - Use `@pytest.mark.parametrize` when testing multiple input/output variants of the same behavior.

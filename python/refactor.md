@@ -35,6 +35,7 @@ Give a brief motivation, then output only the refactored files.
 - Keep changes minimal but meaningful.  
 - Do not modify or generate tests unless instructed.  
 - Prefer direct, explicit improvements over broad redesign.
+- If the input is a skeleton (classes and function signatures without bodies), treat it as the structural contract. Refactor the signatures only and do not invent function bodies unless the goal explicitly asks for them.
 
 ---
 
