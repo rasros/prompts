@@ -1,6 +1,6 @@
-# Go Comment Cleanup Guidelines
+# Go Comment Cleanup Instructions
 
-Clean up comments in Go code according to the following rules:
+Examine the provided code and clean up comments according to the following rules:
 
 ## Remove
 - Temporary or historical comments describing past changes  
@@ -25,5 +25,15 @@ Clean up comments in Go code according to the following rules:
   immediately obvious from the code
 - Do not introduce new comments unless they add meaningful value
 
-Apply these rules consistently across the codebase.
+## Output Format
+Output only changed files in their entirety. Do not output files that have not changed.
+
+- Use the format:
+
+ path/to/file.go
+ ---  
+ ```go
+ <refactored contents>
+ ```
+
 
