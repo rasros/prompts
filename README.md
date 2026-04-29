@@ -1,3 +1,3 @@
-# prompts
+My personal prompts. Feel free to use them.
 
-This is my collection of prompts I use for daily work. Have a look at [ctxp](https://github.com/rasros/ctxp) for how they're used.
+I use them with https://github.com/rasros/lx
