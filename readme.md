@@ -47,7 +47,8 @@ Output only the final README contents, ready to be written to disk.
 - Use the project's language for code examples (Kotlin for Kotlin/JVM projects, Go for Go projects, Python for Python projects). Shell examples remain in `bash`.
 - Do not invent features, flags, file paths, or dependencies that are not present in the provided code.
 - If the input is a skeleton (types and signatures without bodies), describe only what the signatures imply; do not speculate about runtime behavior.
-- Do not include a "Contributing", "Roadmap", "Changelog", or "License" section unless the user asks for one or the code clearly indicates it (e.g. a `LICENSE` file warrants a one-line license note).
+- Do not include a "License" section unless the user explicitly asks for one. The presence of a `LICENSE` file is not sufficient.
+- Do not include a "Contributing", "Roadmap", or "Changelog" section unless the user explicitly asks for one.
 
 ---
 
