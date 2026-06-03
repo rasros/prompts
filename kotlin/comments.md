@@ -29,10 +29,10 @@ Examine the provided code and clean up comments according to the following rules
 ## Output Format
 Output only changed files in their entirety. Do not output files that have not changed.
 
-- Use the format:
+Use this format for each changed file:
 
- path/to/File.kt
- ---  
- ```kotlin
- <refactored contents>
- ```
+path/to/File.kt
+---
+```kotlin
+<refactored contents>
+```
